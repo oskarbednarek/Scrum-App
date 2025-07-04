@@ -10,22 +10,6 @@
 A desktop Scrum project management application built with C++ and the <b>Dear ImGui</b> graphical user interface library. This tool provides a comprehensive suite of features for managing users, sprints, user stories, and tasks, following core Agile principles.
 </p>
 
-📋 Table of Contents
-
-🌟 Core Features
-
-🖼️ Screenshots
-
-🛠️ Technology Stack
-
-🚀 Getting Started
-
-📂 Project Architecture
-
-🤝 Contributing
-
-📄 License
-
 🌟 Core Features
 ✅ Secure User Authentication: A robust login system with distinct roles (Developer, Tester, Product Owner, Scrum Master).
 
@@ -46,7 +30,7 @@ A desktop Scrum project management application built with C++ and the <b>Dear Im
 🖼️ Screenshots
 
 <div align="center">
-<img src="https://imgur.com/a/1juVICV" alt="Scrum App Screenshot"/>
+<img src="https://imgur.com/a/1juVICV](https://i.imgur.com/YWk98b2.png" alt="Scrum App Screenshot"/>
 </div>
 
 🛠️ Technology Stack
