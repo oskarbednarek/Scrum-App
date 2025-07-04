@@ -44,10 +44,9 @@ A desktop Scrum project management application built with C++ and the <b>Dear Im
 ✅ Data Persistence: All project data is saved to local text files, ensuring your work is preserved between sessions.
 
 🖼️ Screenshots
-Replace this with a real screenshot or GIF of your application's UI.
 
 <div align="center">
-<img src="https://placehold.co/800x450/1a1b1e/ffffff?text=Scrum+App+In+Action" alt="Scrum App Screenshot"/>
+<img src="https://imgur.com/a/1juVICV" alt="Scrum App Screenshot"/>
 </div>
 
 🛠️ Technology Stack
@@ -76,7 +75,7 @@ Building the Project
 
 Clone the repository:
 
-git clone https://github.com/your-username/ScrumApp.git
+git clone https://github.com/oskarbednarek/Scrum-App.git
 cd ScrumApp
 
 Create a build directory:
