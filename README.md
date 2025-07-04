@@ -30,7 +30,7 @@ A desktop Scrum project management application built with C++ and the <b>Dear Im
 🖼️ Screenshots
 
 <div align="center">
-<img src="https://imgur.com/a/1juVICV](https://i.imgur.com/YWk98b2.png" alt="Scrum App Screenshot"/>
+<img src="/scrum_app.png" alt="Scrum App Screenshot"/>
 </div>
 
 🛠️ Technology Stack
