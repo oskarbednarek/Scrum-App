@@ -1,35 +1,61 @@
-Scrum App - C++ Management Tool
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Scrum%20App&fontSize=80&fontColor=ffffff" alt="Header Banner"/>
+</div>
+
 <div align="center">
 
 </div>
 
-A desktop Scrum project management application built with C++ and the Dear ImGui graphical user interface library. This tool provides a comprehensive suite of features for managing users, sprints, user stories, and tasks, following core Agile principles.
+<p align="center">
+A desktop Scrum project management application built with C++ and the <b>Dear ImGui</b> graphical user interface library. This tool provides a comprehensive suite of features for managing users, sprints, user stories, and tasks, following core Agile principles.
+</p>
 
-Replace this with a real screenshot of your application's UI.
+📋 Table of Contents
 
 🌟 Core Features
-Secure User Authentication: A robust login system with distinct roles (Developer, Tester, Product Owner, Scrum Master).
 
-Role-Based Permissions: The UI and available actions are dynamically adjusted based on the logged-in user's role, ensuring data integrity and proper workflow.
+🖼️ Screenshots
 
-Product Backlog Management: Easily create, view, and prioritize user stories in the product backlog.
+🛠️ Technology Stack
 
-Sprint Planning & Management: Organize work into sprints, assign user stories from the backlog, and track sprint status from planning to completion.
+🚀 Getting Started
 
-Interactive Task Board: A drag-and-drop Kanban-style board to visualize task progress through "To Do", "In Progress", "Testing", and "Done" columns.
+📂 Project Architecture
 
-Detailed Task Management: Create tasks within user stories, assign them to team members, set deadlines, and log work hours with comments.
+🤝 Contributing
 
-Insightful Dashboard: View the active sprint's burndown chart and a personalized summary of your currently assigned tasks.
+📄 License
 
-Data Persistence: All project data (users, stories, tasks, sprints) is saved to local text files, ensuring your work is preserved between sessions.
+🌟 Core Features
+✅ Secure User Authentication: A robust login system with distinct roles (Developer, Tester, Product Owner, Scrum Master).
+
+✅ Role-Based Permissions: The UI and available actions are dynamically adjusted based on the logged-in user's role.
+
+✅ Product Backlog Management: Easily create, view, and prioritize user stories in the product backlog.
+
+✅ Sprint Planning & Management: Organize work into sprints, assign user stories, and track sprint status.
+
+✅ Interactive Task Board: A drag-and-drop Kanban-style board to visualize task progress.
+
+✅ Detailed Task Management: Create tasks, assign them, set deadlines, and log work hours with comments.
+
+✅ Insightful Dashboard: View the active sprint's burndown chart and a summary of your assigned tasks.
+
+✅ Data Persistence: All project data is saved to local text files, ensuring your work is preserved between sessions.
+
+🖼️ Screenshots
+Replace this with a real screenshot or GIF of your application's UI.
+
+<div align="center">
+<img src="https://placehold.co/800x450/1a1b1e/ffffff?text=Scrum+App+In+Action" alt="Scrum App Screenshot"/>
+</div>
 
 🛠️ Technology Stack
 Core Language: C++17
 
 GUI Framework: Dear ImGui
 
-Windowing & Rendering: SDL2 and OpenGL
+Windowing & Rendering: SDL2 & OpenGL
 
 Build System: CMake
 
@@ -53,25 +79,25 @@ Clone the repository:
 git clone https://github.com/your-username/ScrumApp.git
 cd ScrumApp
 
-
 Create a build directory:
 
 mkdir build
 cd build
 
-
 Run CMake and build the project:
 
 cmake ..
-make 
+make
 
-
-(On Windows with Visual Studio, you may need to use cmake --build . instead of make)
+(On Windows with Visual Studio, you may need to use cmake --build .)
 
 Run the application:
-The executable ScrumApp will be located in the build directory.
+The executable ScrumApp will be located in the build/ directory.
 
 📂 Project Architecture
+<details>
+<summary>Click to expand the project structure overview</summary>
+
 The project is organized with a clear separation of concerns, with each major component handled by a dedicated manager class:
 
 ScrumApp: The main application class that initializes SDL and ImGui, and runs the main event loop.
@@ -86,8 +112,11 @@ DataManager: Encapsulates all file I/O logic for saving and loading project data
 
 DataTypes.h: A central header defining all core data structures (User, UserStory, Task, Sprint) and enums.
 
+</details>
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page for this repository.
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
